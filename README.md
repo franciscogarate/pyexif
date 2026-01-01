@@ -3,22 +3,29 @@ Include geolocation info in your photos with Python and exiftool command (termin
 
 I hope the scripts are clear enough to be understood and customized for beginners python users.
 
-Requirements:
-- python 3.11 or higher
+### Requirements:
+For Linux:
+- Python 3.11 or higher
 - exiftool (sudo apt-get install exiftool)
 
-
-## PyPhotoOrganizer
-Also, I include some useful scripts to organize them, depending on the size, camera maker or whatever you want if it's included in Exif info.
-
-Requirements:
-- python 2.7 or 3
-- perl
+For Mac OS:
+- Python 3 (libraries: pandas and openxl)
+- Imagemagick (brew install imagemagick)
 - library exiftools (perl)
 
 Instructions:
 - Images must be in a local folder
+- Fill info_exif.xlsx
 - Following variables must be completed:
-        - path_w
-        - typefile_w
-        - size_w
+        - path
+
+###Folder Organizer
+
+Also, I include some useful scripts to organize them, depending on the size, camera maker or whatever you want if it's included in Exif info.
+
+Instructions:
+- Images must be in a local folder
+- Following variables must be completed:
+	- path_w
+	- typefile_w
+	- size_w
